@@ -142,4 +142,10 @@
 .navigation li {
   list-style-type: none;
   margin: 10px;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

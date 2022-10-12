@@ -146,20 +146,23 @@
 .two {
   margin: 0;
   width: 100%;
-  max-width: 1770px;
   height: 685px;
   background-image: url(/images/castle.png);
 }
 .two .wrap {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .two .two-images {
   display: block;
+  position: relative;
+  top: 50px;
 }
 .two .lake {
+  position: absolute;
+  left: 50px;
   width: 180px;
   height: 150px;
 }
@@ -169,7 +172,10 @@
 }
 .two .tin {
   width: 360px;
-  height: 108px;
+  height: 0px;
+  position: relative;
+  top: 80px;
+  left: 50px;
 }
 .two .button1 {
   width: 200px;
@@ -186,6 +192,8 @@
   font-size: 36px;
   line-height: 26px;
   align-items: center;
+  position: relative;
+  margin-left: 10px;
 }
 .two .para1 {
   width: 300px;
@@ -199,9 +207,4 @@
   align-items: center;
   letter-spacing: 1.6px;
   margin: 2rem;
-}
-.two .basement {
-  position: absolute;
-  bottom: 0;
-  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

@@ -8,15 +8,74 @@
 @import "./top";
 
 .two{
+    margin: 0;
+     width: 100%;
+     max-width: 1770px;
+     height: 685px;
+    background-image: url(/images/castle.png);
+    
+    .wrap {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
+    .two-images {
+        display: block;
+      
+    }
+       
+    
     .lake {
-        width: ;
-        height: ;
+        width: 180px;
+        height:150px ;
+
+      
+       
+    }
+    .house{
+        width: 180px;
+        height:150px ;
+       
+      
+      
+    }
+    .tin    {
+        width:360px;
+        height: 108px;
+
+
+    }
+
+
+     h3 { 
+      
+        color: #FFFFFF;
+        font-family: "aleo";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;
+        align-items: center;
+       
+       
+     
+    }
+    .para1 {
+        width: 300px;
+        color: #E8E8E8;
+        font-family: "josefin sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 1.6px;
+        margin: 2rem;
     }
 
 }
+

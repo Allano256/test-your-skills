@@ -133,7 +133,6 @@
   font-family: "aleo";
   display: flex;
   position: relative;
-  left: 100px;
 }
 .navigation a {
   color: white;
@@ -172,6 +171,13 @@
   width: 360px;
   height: 108px;
 }
+.two .button1 {
+  width: 200px;
+  height: 60px;
+  border: 0;
+  color: white;
+  background-color: #496BFE;
+}
 .two h3 {
   color: #FFFFFF;
   font-family: "aleo";
@@ -193,4 +199,9 @@
   align-items: center;
   letter-spacing: 1.6px;
   margin: 2rem;
+}
+.two .basement {
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

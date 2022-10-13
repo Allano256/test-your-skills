@@ -19,7 +19,6 @@
         width: 100%;
         display: flex;
         align-items: center;
-       
         justify-content: space-evenly;
        
     }
@@ -27,6 +26,7 @@
       
 
     .two-images {
+      
         display: block;
         position: relative;
         top: 50px;
@@ -35,10 +35,12 @@
        
     
     .lake {
-        position: absolute;
+        position: relative;
         left: 50px;
         width: 180px;
         height:150px ;
+        top: 50px;
+  
 
       
        
@@ -105,15 +107,47 @@
 }
 
 .bottom{
-      padding-bottom: 2rem;
+     
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+        top:-4px;
+
   
        }
        .basement{
         width: 100%;
-       width: 800px;
-        height: 100px;
+       max-width: 1770px;
+        height: auto;
        }
 
+@media  screen and (min-width:800px) {
+
+    .top .form{
+        width:650px;
+    }
+     .top .h1 ,.top .para {
+        text-align: center;
+        justify-content: center;
+    }
+   
+}
+
+@media screen and (max-width:768px){
+         .wrap {
+            flex-direction: column;
+         }
+         .wrap .lake {
+            position: static;
+         }
+         .wrap .house {
+            position: static;
+         }
+         .wrap .tin {
+            left:-100px;
+         }
+         .wrap .two-images{
+            left:150px;
+         }
+}

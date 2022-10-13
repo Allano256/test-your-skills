@@ -84,6 +84,9 @@
 .top .form button img {
   width: 25px;
 }
+.top .form button:hover {
+  color: rgb(255, 0, 64);
+}
 .top .form button {
   display: flex;
   align-items: center;
@@ -134,6 +137,9 @@
   display: flex;
   position: relative;
 }
+.navigation a:hover {
+  color: rgb(165, 32, 125);
+}
 .navigation a {
   color: white;
   text-decoration: none;
@@ -177,6 +183,9 @@
   position: relative;
   top: 80px;
   left: 50px;
+}
+.two .button1:hover {
+  color: grey;
 }
 .two .button1 {
   width: 200px;

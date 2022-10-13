@@ -84,6 +84,9 @@ align-items: center;
     width: 25px;
     
 }
+.form button:hover {
+    color: rgb(255, 0, 64);
+}
  .form button {
     display: flex;
     align-items: center;
@@ -117,6 +120,8 @@ align-items: center;
     position: absolute;
     bottom: 0;
     justify-content: center;
+
+
     .logo h2 {
 
         color: #FFFFFF;
@@ -141,10 +146,18 @@ align-items: center;
       
         
     }
+
+    a:hover {
+        color: rgb(165, 32, 125);
+        
+
+    }
     a { 
         color: white;
         text-decoration: none;
     }
+   
+ 
     li {
         list-style-type: none;
         margin: 10px;

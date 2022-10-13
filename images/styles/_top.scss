@@ -3,8 +3,8 @@
     background-image: url(/images/top-image.png);
     background-position: center;
     background-size: cover;
-    width: 1770px;
-    max-width: 100%;
+   
+    width: 100%;
     height:820px;
     position: relative;
 
@@ -116,7 +116,6 @@ align-items: center;
     background:#5474FD ;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: absolute;
     bottom: 0;
     justify-content: center;
@@ -136,7 +135,7 @@ align-items: center;
     letter-spacing: 2.4px;
     text-transform: uppercase;
     display: flex;
-    margin-right: 50px;
+    
 
     }
     .list ul {

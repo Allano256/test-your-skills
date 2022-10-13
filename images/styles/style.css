@@ -9,8 +9,7 @@
   background-image: url(/images/top-image.png);
   background-position: center;
   background-size: cover;
-  width: 1770px;
-  max-width: 100%;
+  width: 100%;
   height: 820px;
   position: relative;
 }
@@ -112,7 +111,6 @@
   background: #5474FD;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   position: absolute;
   bottom: 0;
   justify-content: center;
@@ -130,7 +128,6 @@
   letter-spacing: 2.4px;
   text-transform: uppercase;
   display: flex;
-  margin-right: 50px;
 }
 .navigation .list ul {
   font-family: "aleo";
@@ -152,9 +149,11 @@
 .two {
   margin: 0;
   width: 100%;
+  height: 685px;
   font-family: "aleo", "josephin sans";
   height: 685px;
   background-image: url(/images/castle.png);
+  position: relative;
 }
 .two .wrap {
   width: 100%;
@@ -217,4 +216,17 @@
   align-items: center;
   letter-spacing: 1.6px;
   margin: 2rem;
+}
+
+.bottom {
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basement {
+  width: 100%;
+  width: 800px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
